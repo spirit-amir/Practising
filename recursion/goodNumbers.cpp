@@ -3,7 +3,8 @@ using namespace std;
 
 class Solution {
 public:
-    long long countGoodNumbers(long n, long current_pos = 0) {
+    long long countGoodNumbers(long n, long current_pos = 0)
+ {
         long choices;
         if (n == 0)
             return 1;
